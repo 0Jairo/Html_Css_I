@@ -1,0 +1,22 @@
+/*
+
+SELECTORES:
+
+
+TIPOS DE COLORES:
+
+1. Nombre del color -> blue
+2. Hexadecimal -> #CCCCCC
+3. RGB -> (0 = menor intensidad, 255 = mayor intensidad) -> rgb(0, 255, 100)
+
+
+text-align: center; (Se usa para centrar texto)
+background: blue; (Se usa para poner un color de fondo)
+color: green; (Se usa para dar el color de la fuente)
+font-size: 22px; (Se usa para dar el tamaño de la fuente)
+width: 80%; (Se usa para indicar el tamaño que debe tener un elemento en la pantalla (tamaño de ancho))
+height: 50%; (Se usa para indicar el tamaño que debe tener un elemento en la pantalla (tamaño de alto))
+padding: 2px; (Se usa para ajustar el margen interno de un elemento)
+margin: 5px; (Se usa para ajustar el margen externo de un elemento)
+
+*/
