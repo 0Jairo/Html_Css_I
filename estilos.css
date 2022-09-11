@@ -2,6 +2,12 @@
 
 SELECTORES:
 
+- Tipo. -> a { color: red; }
+- Clase. -> .nombre-clase { color: blue; } / class="nombre-clase" (Se usa caundo se desea repetir el estilo CSS en varios elementos (reutilizar))
+- Id. -> #nombre-id { color: blue; } / id="nombre-id" (Se usa caundo se desea aplicar el estilo CSS en un solo elemento (no reutlizar))
+- Universal.
+- Atributo.
+
 
 TIPOS DE COLORES:
 
@@ -18,5 +24,16 @@ width: 80%; (Se usa para indicar el tamaño que debe tener un elemento en la pan
 height: 50%; (Se usa para indicar el tamaño que debe tener un elemento en la pantalla (tamaño de alto))
 padding: 2px; (Se usa para ajustar el margen interno de un elemento)
 margin: 5px; (Se usa para ajustar el margen externo de un elemento)
+font-style: italic; (Se usa para poner texto en italica)
+display: inline-block; (Se usa para que los elementos ocupen solo el espacio que necesita su contenido. Por ejemplo las listas no ordenadas traen por defecto la propiedad display: block esto quiere decir, que este elemento ocupará todo el espacio disponible tanto en ancho como en alto así no lo necesite, o así no lo este ocupando todo realmente)
+vertical-align: top (Se usa para alinear elementos de arriba hacía abajo, las ul por defecto, si una foto es mas grande se alinea hacia el abajo)
+margin-right: 15%; (Se usa para aplicar margen al lado derecho)
+padding-left: 30px; (Se usa para aplicar margen interior a el lado izquierdo)
+
+NOTA:
+
+- ul (Las listas no ordenadas traen por defecto la propiedad display: block; esto quiere decir que siempre ocuparan el 100% del tamaño de la pantalla (así realmente no lo necesite), esto se puede solucionar por medio de la propiedad display: inline-block;)
+
+- <img src=""/> (Las imágenes traen por defecto la propiedad display: inline-block; esto quiere decir que las imagenes ocupan solamente el tamaño que necesitan)
 
 */
